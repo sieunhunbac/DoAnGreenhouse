@@ -1,0 +1,145 @@
+body{
+	font-family: "Inter", sans-serif;
+}
+.row11{
+	background-image: url(img/kgdbanner1.png);
+	height: 400px;
+}
+.row12{
+	background-color: #d5efe2;
+}
+.input1{
+	background: linear-gradient(to right top, #7a9c59, #74cd42, #33a445, #288036, #7a9c59);
+	border-radius: 30px;
+	text-align: center;
+	width: 700px;
+	height: 45px;
+	color: white;
+	margin: 40px;
+	margin-left: 275px;
+}
+.p2
+{
+	background-color: #f7f2f2;
+	padding: 10px;
+	font-size: 20px;
+	border-radius: 0px 0px 10px 10px;
+	padding-top: 370px;
+}
+.p11{
+	font-size: 20px;
+	margin-top: 50px;
+	text-align: center;
+}
+.p12{
+	margin-top: 10px;
+}
+.p13{
+	margin: 20px 0px 20px 0px;
+}
+.p14{
+	color: black;
+	background-color: white;
+}
+.p14:hover{
+	font-weight: bold;
+}
+.p15{
+	float: left;
+	font-size: 20px;
+	margin-left: left;
+	margin-right: 500px;
+}
+.p16{
+	float: left;
+	font-size: 20px;
+	margin-left: left;
+	margin-top: 5px;
+	border: 1px black solid;
+	margin-left: 20px;
+	background-color: white;
+}
+.p17{
+	float: left;
+	font-size: 20px;
+	margin-left: left;
+	margin-top: 10px;
+}
+.a11{
+	text-decoration: none;
+	color: black;
+}
+.card11{
+	width: 150px;
+	height: 200px;
+	margin: 28px;
+	float: left;
+	border-radius: 20px;
+}
+.card12{
+	width: 150px;
+	height: 200px;
+	margin-left: 20px;
+	float: left;
+	border-radius: 20px;
+}
+.giaodien
+{
+	width: 270px;
+	border-radius: 10px 10px 0px 0px;
+	float: left;
+	margin-left: 35px;
+	margin-top: 20px;
+}
+.giaodien img {
+  width: 100%; /* need to overwrite inline dimensions */
+  height: auto;
+  border-radius: 10px 10px 0px 0px;
+}
+/* hover styles */
+.location-listing {
+  position: relative;
+  float: left;
+}
+.location-image {
+  line-height: 0;
+  overflow: hidden;
+}
+.location-title {
+  font-size: 1.7em;
+  font-weight: bold;
+  text-decoration: none;
+  z-index: 1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity .5s;
+  background: rgba(0,0,0,0.5);
+  color: white;
+  /* position the text in t’ middle*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px 20px 0px 0px;
+}
+.location-listing:hover .location-title {
+  opacity: 1;
+}
+.location-listing:hover .location-image img {
+  filter: blur(2px);
+}
+.img11{
+border-radius: 36px;
+}
+.img11:hover{
+	box-shadow: 10px 0px 5px 5px rgba(0, 0, 0, 0.100);
+	filter: drop-shadow(0 0  #1acea4);
+	border: 1px solid green;
+}
+::placeholder { 
+		color:white;     /* Firefox, Chrome, Opera */
+		font-size: 25px;
+	}

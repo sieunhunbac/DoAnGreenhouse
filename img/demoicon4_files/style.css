@@ -1,0 +1,1129 @@
+/* begin phone css */
+/**CSS phone button***/
+@media screen and (max-width:680px) {
+	.call-now-button {
+		display: flex!important;
+		background: transparent
+	}
+	call-now-button .call-text {
+		display: none
+	}
+}
+
+.quick-call-button {
+	display: none
+}
+
+.call-now-button {
+	display: none;
+	z-index: 9999;
+	clear: both;
+	margin: 0 auto;
+	position: fixed;
+	border-radius: 50px
+}
+
+.call-now-button div {
+	display: flex
+}
+
+.call-now-button div p {
+    color: #fff;
+    display: table;
+    padding: 10px;
+    border-radius: 21px;
+    height: 34px;
+    line-height: 14px;
+    font-size: 14px;
+    margin: 8px 5px 8px 50px;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: center;
+    box-sizing: content-box;
+    text-decoration: none !important;
+    box-sizing: border-box;
+}
+
+.quick-alo-ph-circle.active {
+	width: 130px;
+	height: 130px;
+	top: -40px;
+	left: -40px;
+	position: absolute;
+	background-color: transparent;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+	border: 2px solid rgba(30, 30, 30, .4);
+	opacity: 1;
+	-webkit-animation: quick-alo-circle-anim 1.2s infinite ease-in-out;
+	-moz-animation: quick-alo-circle-anim 1.2s infinite ease-in-out;
+	-ms-animation: quick-alo-circle-anim 1.2s infinite ease-in-out;
+	-o-animation: quick-alo-circle-anim 1.2s infinite ease-in-out;
+	animation: quick-alo-circle-anim 1.2s infinite ease-in-out;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+	-webkit-transform-origin: 50% 50%;
+	-moz-transform-origin: 50% 50%;
+	-ms-transform-origin: 50% 50%;
+	-o-transform-origin: 50% 50%;
+	transform-origin: 50% 50%
+}
+
+.quick-alo-ph-circle-fill.active {
+	width: 80px;
+	height: 80px;
+	top: -15px;
+	left: -15px;
+	position: absolute;
+	background-color: #000;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+	border: 2px solid transparent;
+	opacity: 1;
+	-webkit-animation: quick-alo-circle-fill-anim 2.3s infinite ease-in-out;
+	-moz-animation: quick-alo-circle-fill-anim 2.3s infinite ease-in-out;
+	-ms-animation: quick-alo-circle-fill-anim 2.3s infinite ease-in-out;
+	-o-animation: quick-alo-circle-fill-anim 2.3s infinite ease-in-out;
+	animation: quick-alo-circle-fill-anim 2.3s infinite ease-in-out;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+	-webkit-transform-origin: 50% 50%;
+	-moz-transform-origin: 50% 50%;
+	-ms-transform-origin: 50% 50%;
+	-o-transform-origin: 50% 50%;
+	transform-origin: 50% 50%
+}
+
+.quick-alo-ph-img-circle.shake {
+	width: 50px;
+	height: 50px;
+	top: 0;
+	left: 0;
+	position: absolute;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+	border: 2px solid transparent;
+	opacity: 1;
+	background: url(https://img.icons8.com/ios-glyphs/30/000000/add-shopping-cart.png) no-repeat center center;
+	-webkit-animation: quick-alo-circle-img-anim 1s infinite ease-in-out;
+	-moz-animation: quick-alo-circle-img-anim 1s infinite ease-in-out;
+	-ms-animation: quick-alo-circle-img-anim 1s infinite ease-in-out;
+	-o-animation: quick-alo-circle-img-anim 1s infinite ease-in-out;
+	animation: quick-alo-circle-img-anim 1s infinite ease-in-out;
+	-webkit-transform-origin: 50% 50%;
+	-moz-transform-origin: 50% 50%;
+	-ms-transform-origin: 50% 50%;
+	-o-transform-origin: 50% 50%;
+	transform-origin: 50% 50%
+}
+
+.quick-alo-phone-img-circle.shake {
+	width: 50px;
+	height: 50px;
+	top: 0;
+	left: 0;
+	position: absolute;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+	border: 2px solid transparent;
+	opacity: 1;
+	-webkit-animation: quick-alo-circle-img-anim 1s infinite ease-in-out;
+	-moz-animation: quick-alo-circle-img-anim 1s infinite ease-in-out;
+	-ms-animation: quick-alo-circle-img-anim 1s infinite ease-in-out;
+	-o-animation: quick-alo-circle-img-anim 1s infinite ease-in-out;
+	animation: quick-alo-circle-img-anim 1s infinite ease-in-out;
+	-webkit-transform-origin: 50% 50%;
+	-moz-transform-origin: 50% 50%;
+	-ms-transform-origin: 50% 50%;
+	-o-transform-origin: 50% 50%;
+	transform-origin: 50% 50%
+}
+
+.quick-alo-ph-img-circle.notshake {
+	width: 50px;
+	height: 50px;
+	top: 0;
+	left: 0;
+	position: absolute;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+	border: 2px solid transparent;
+	opacity: 1;
+	-webkit-transform-origin: 50% 50%;
+	-moz-transform-origin: 50% 50%;
+	-ms-transform-origin: 50% 50%;
+	-o-transform-origin: 50% 50%;
+	transform-origin: 50% 50%
+}
+
+.quick-alo-phone-img-circle.notshake {
+	width: 50px;
+	height: 50px;
+	top: 0;
+	left: 0;
+	position: absolute;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+	border: 2px solid transparent;
+	opacity: 1;
+	-webkit-transform-origin: 50% 50%;
+	-moz-transform-origin: 50% 50%;
+	-ms-transform-origin: 50% 50%;
+	-o-transform-origin: 50% 50%;
+	transform-origin: 50% 50%
+}
+
+@media screen and (max-width: 8600px) {
+	.call-now-button {
+		display: flex !important;
+		background: linear-gradient(90deg, rgba(219,219,65,0.9925012241224614) 22%, rgba(12,218,80,1) 69%, rgba(12,218,80,1) 100%);
+	}
+	.quick-call-button {
+		display: block !important;
+	}
+}
+
+.call-now-button {
+	bottom: 20px;
+}
+
+.call-now-button {
+	left: 10px;
+}
+
+.call-now-button {
+	/* background: #03db39; */
+}
+
+.call-now-button div a .quick-alo-ph-img-circle,
+.call-now-button div a .quick-alo-phone-img-circle {
+	background-color: #F3F348;
+}
+
+.call-now-button .call-text {
+	font-weight: 500;
+	font-family: 'oswald';
+	color: black;
+}
+
+@-moz-keyframes quick-alo-circle-anim {
+	0% {
+		-moz-transform: rotate(0) scale(.5) skew(1deg);
+		opacity: .1;
+		-moz-opacity: .1;
+		-webkit-opacity: .1;
+		-o-opacity: .1
+	}
+	30% {
+		-moz-transform: rotate(0) scale(.7) skew(1deg);
+		opacity: .5;
+		-moz-opacity: .5;
+		-webkit-opacity: .5;
+		-o-opacity: .5
+	}
+	100% {
+		-moz-transform: rotate(0) scale(1) skew(1deg);
+		opacity: .6;
+		-moz-opacity: .6;
+		-webkit-opacity: .6;
+		-o-opacity: .1
+	}
+}
+
+@-webkit-keyframes quick-alo-circle-anim {
+	0% {
+		-webkit-transform: rotate(0) scale(.5) skew(1deg);
+		-webkit-opacity: .1
+	}
+	30% {
+		-webkit-transform: rotate(0) scale(.7) skew(1deg);
+		-webkit-opacity: .5
+	}
+	100% {
+		-webkit-transform: rotate(0) scale(1) skew(1deg);
+		-webkit-opacity: .1
+	}
+}
+
+@-o-keyframes quick-alo-circle-anim {
+	0% {
+		-o-transform: rotate(0) kscale(.5) skew(1deg);
+		-o-opacity: .1
+	}
+	30% {
+		-o-transform: rotate(0) scale(.7) skew(1deg);
+		-o-opacity: .5
+	}
+	100% {
+		-o-transform: rotate(0) scale(1) skew(1deg);
+		-o-opacity: .1
+	}
+}
+
+@-moz-keyframes quick-alo-circle-fill-anim {
+	0% {
+		-moz-transform: rotate(0) scale(.7) skew(1deg);
+		opacity: .2
+	}
+	50% {
+		-moz-transform: rotate(0) -moz-scale(1) skew(1deg);
+		opacity: .2
+	}
+	100% {
+		-moz-transform: rotate(0) scale(.7) skew(1deg);
+		opacity: .2
+	}
+}
+
+@-webkit-keyframes quick-alo-circle-fill-anim {
+	0% {
+		-webkit-transform: rotate(0) scale(.7) skew(1deg);
+		opacity: .2
+	}
+	50% {
+		-webkit-transform: rotate(0) scale(1) skew(1deg);
+		opacity: .2
+	}
+	100% {
+		-webkit-transform: rotate(0) scale(.7) skew(1deg);
+		opacity: .2
+	}
+}
+
+@-o-keyframes quick-alo-circle-fill-anim {
+	0% {
+		-o-transform: rotate(0) scale(.7) skew(1deg);
+		opacity: .2
+	}
+	50% {
+		-o-transform: rotate(0) scale(1) skew(1deg);
+		opacity: .2
+	}
+	100% {
+		-o-transform: rotate(0) scale(.7) skew(1deg);
+		opacity: .2
+	}
+}
+
+@-moz-keyframes quick-alo-circle-img-anim {
+	10% {
+		transform: rotate(0) scale(1) skew(1deg)
+	}
+	10% {
+		-moz-transform: rotate(-25deg) scale(1) skew(1deg)
+	}
+	20% {
+		-moz-transform: rotate(25deg) scale(1) skew(1deg)
+	}
+	30% {
+		-moz-transform: rotate(-25deg) scale(1) skew(1deg)
+	}
+	40% {
+		-moz-transform: rotate(25deg) scale(1) skew(1deg)
+	}
+	50% {
+		-moz-transform: rotate(0) scale(1) skew(1deg)
+	}
+	100% {
+		-moz-transform: rotate(0) scale(1) skew(1deg)
+	}
+}
+
+@-webkit-keyframes quick-alo-circle-img-anim {
+	0% {
+		-webkit-transform: rotate(0) scale(1) skew(1deg)
+	}
+	10% {
+		-webkit-transform: rotate(-25deg) scale(1) skew(1deg)
+	}
+	20% {
+		-webkit-transform: rotate(25deg) scale(1) skew(1deg)
+	}
+	30% {
+		-webkit-transform: rotate(-25deg) scale(1) skew(1deg)
+	}
+	40% {
+		-webkit-transform: rotate(25deg) scale(1) skew(1deg)
+	}
+	50% {
+		-webkit-transform: rotate(0) scale(1) skew(1deg)
+	}
+	100% {
+		-webkit-transform: rotate(0) scale(1) skew(1deg)
+	}
+}
+
+@-o-keyframes quick-alo-circle-img-anim {
+	0% {
+		-o-transform: rotate(0) scale(1) skew(1deg)
+	}
+	10% {
+		-o-transform: rotate(-25deg) scale(1) skew(1deg)
+	}
+	20% {
+		-o-transform: rotate(25deg) scale(1) skew(1deg)
+	}
+	30% {
+		-o-transform: rotate(-25deg) scale(1) skew(1deg)
+	}
+	40% {
+		-o-transform: rotate(25deg) scale(1) skew(1deg)
+	}
+	50% {
+		-o-transform: rotate(0) scale(1) skew(1deg)
+	}
+	100% {
+		-o-transform: rotate(0) scale(1) skew(1deg)
+	}
+}
+
+/* end phone css */
+@media (min-width: 549px){
+.footermenu-fix{
+    display: none;
+}
+}
+
+
+/* css mobile */
+@media (max-width: 549px){
+    .container-full-hd{
+        display: none;
+    }
+    .call-now-button{
+        display: none !important;
+    }
+    .footermenu-fix {
+        display: block;
+        position: fixed;
+        bottom: 0;
+        height: 50px;
+        width: 100%;
+        min-width: 320px;
+        background-color: #fff;
+        z-index: 2;
+        margin: 0 auto;
+        box-shadow: 0 0 6px 1px #3e3e3e61;
+    }
+    .footermenu-wrap {
+        display: grid;
+        height: 100%;
+        grid-template-columns: repeat(5,1fr);
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        -webkit-box-shadow: 0 0 2px 0 rgba(0,0,0,.25);
+        box-shadow: 0 0 2px 0 rgba(0,0,0,.25);
+    }
+    .footermenu-wrap-item {
+        text-align: center;
+        position: relative;
+    }
+    .footermenu-wrap-item .footermenu-item, .footermenu-wrap-item .footermenu-itemlink {
+        float: none;
+        height: 100%;
+    }
+    .footermenu-item {
+        padding: 5px;
+        line-height: 35px;
+    }
+    .footermenu-wrap-item .footermenu-itemlink {
+        display: block;
+        font-size: 11px;
+        line-height: .5;
+    }
+    .footermenu-wrap-item .footermenu-item, .footermenu-wrap-item .footermenu-itemlink {
+        float: none;
+        height: 100%;
+    }
+    .footermenu-itemlink {
+        color: #000;
+        text-decoration: none;
+        display: block;
+        position: relative;
+    }
+    .register_click_dangky {
+        cursor: pointer;
+    }
+    .footermenu-itemlink span {
+        display: block;
+        font-size: 12px;
+        height: 5px;
+        line-height: initial;
+        width: 100%;
+        position: absolute;
+        color: #717071;
+    }
+    .footermenu-shadow {
+        width: 70px;
+        height: 70px!important;
+        background: #038018;
+        color: #fff;
+        font-size: 15px;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 3.7!important;
+        letter-spacing: normal;
+        border-radius: 50%;
+        text-decoration: none;
+        position: absolute;
+        left: calc(50% - 35px);
+        top: -10px;
+        padding: 0!important;
+    }
+    .footermenu-svg {
+        position: absolute;
+        bottom: 63px;
+        text-align: center;
+        left: calc(50% - 35px);
+        width: 70px;
+        height: 7px;
+    }
+    .footermenu-wrap-item.center svg {
+        width: 28px;
+        height: 28px;
+        fill: #fff;
+    }
+    
+}
+
+/* end css mobile */
+.close-bottom{
+    position: absolute;
+    right: -6px;
+    top: -8px;
+    padding: 2px 7px;
+    background: #ff5d00;
+   
+    border-radius: 50%;
+  
+    width: 30px;
+    height: 30px;
+}
+.container-full-hd{
+    background-color: #fff;
+    border-color: #fdcc0f;
+margin:0 auto;
+}
+.full-contanier{
+    margin: 0 auto;
+    display: table;
+    width: 1600px;
+}
+/* 
+@font-face{font-family:'Google';src:url(/template/frontend/fonts/GoogleSans-Regular.ttf) format('truetype');font-weight:300;font-style:normal}
+@font-face{font-family:'Google';src:url(/template/frontend/fonts/GoogleSans-Italic.ttf) format('truetype');font-weight:300;font-style:italic;}
+@font-face{font-family:'Google';src:url(/template/frontend/fonts/GoogleSans-Medium.ttf) format('truetype');font-weight:500;font-style:normal}
+@font-face{font-family:'Google';src:url(/template/frontend/fonts/GoogleSans-MediumItalic.ttf) format('truetype');font-weight:500;font-style:italic;}
+@font-face{font-family:'Google';src:url(/template/frontend/fonts/GoogleSans-Bold.ttf) format('truetype');font-weight:600;font-style:normal}
+@font-face{font-family:'Google';src:url(/template/frontend/fonts/GoogleSans-BoldItalic.ttf) format('truetype');font-weight:600;font-style:italic;} */
+
+body {
+    background: #cfd8dd none repeat scroll 0 0;
+    color: #333;
+    font-family: "Google",Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    font-weight: 300
+}
+#header {
+    background: #d5ecd6;
+    color: #000;
+    float: left;
+    height: 55px;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    transition: all .5s ease 0s;
+    width: 100%;
+    z-index: 100
+}
+#header #logo {
+       float: left;
+    height: 54px;
+    margin: 0px 20px;
+    width: 220px;
+}
+#header #logo h1.logo {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%
+}
+.info-contact{
+color:red;
+  font-size:14px;
+margin-bottom:20px;
+}
+.info-contact a{
+color:red;
+  font-style: italic;
+font-size:15px;
+font-weight:600;
+}
+#header #logo h1.logo a {
+    background: rgba(0, 0, 0, 0) url("https://ghouse.com.vn/wp-content/uploads/2021/01/logoghouse.png") no-repeat scroll center center;
+    display: block;
+    font-size: 0;
+    height: 100%;
+    text-indent: -9999px;
+    width: 100%
+}
+#header .center-hotline .nav-pills>li span.hidden-xs{
+font-size:14px;
+}
+#header .template_id {
+    float: left;
+    line-height: 25px;
+    margin: 15px 10px;
+    white-space: nowrap;
+    text-transform: capitalize
+}
+#header .template_id span {
+    color: #333
+}
+#header .template_id a {
+    color: #fff;
+    text-decoration:none;
+}
+#header .template_id a b
+{
+    /*width: 100px;*/
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: 16px;
+    color: #000;
+}
+#header .template_colors {
+    float: left;
+    margin: 10px
+}
+#header .template_colors a {
+    border-radius: 3px;
+    display: block;
+    float: left;
+    height: 35px;
+    margin: 0 5px;
+    width: 35px;
+    box-sizing: initial
+}
+#header .devices {
+    float: left;
+    margin: 14px 0px
+}
+#header .devices a {
+    display: block;
+    float: left;
+    font-size: 0;
+    height: 26px;
+    line-height: 0;
+    margin: 0 10px;
+    text-indent: -9999px;
+    cursor: pointer
+}
+#header .devices a.pc {
+    background: rgba(0, 0, 0, 0) url("https://ghouse.com.vn/wp-content/uploads/2021/01/icon_pc.png") no-repeat scroll center center;
+    width: 30px
+}
+#header .devices a.pc:hover,
+#header .devices .active a.pc {
+    background: rgba(0, 0, 0, 0) url("https://ghouse.com.vn/wp-content/uploads/2021/01/icon_pc_h.png") no-repeat scroll center center
+}
+#header .devices a.tablet_landscape {
+    background: rgba(0, 0, 0, 0) url("https://ghouse.com.vn/wp-content/uploads/2021/01/icon_tablet_landscape.png") no-repeat scroll center center;
+    width: 22px
+}
+#header .devices a.tablet_landscape:hover,
+#header .devices .active a.tablet_landscape {
+    background: rgba(0, 0, 0, 0) url("https://ghouse.com.vn/wp-content/uploads/2021/01/icon_tablet_landscape_h.png") no-repeat scroll center center
+}
+#header .devices a.tablet_portrait {
+    background: rgba(0, 0, 0, 0) url("https://ghouse.com.vn/wp-content/uploads/2021/01/icon_tablet_portrait.png") no-repeat scroll center center;
+    width: 18px
+}
+#header .devices a.tablet_portrait:hover,
+#header .devices .active a.tablet_portrait {
+    background: rgba(0, 0, 0, 0) url("https://ghouse.com.vn/wp-content/uploads/2021/01/icon_tablet_portrai1.png") no-repeat scroll center center
+}
+#header .devices a.phone_landscape {
+    background: rgba(0, 0, 0, 0) url("https://ghouse.com.vn/wp-content/uploads/2021/01/icon_phone_landscape.png") no-repeat scroll center center;
+    width: 20px
+}
+#header .devices a.phone_landscape:hover,
+#header .devices .active a.phone_landscape {
+    background: rgba(0, 0, 0, 0) url("https://ghouse.com.vn/wp-content/uploads/2021/01/icon_phone_landscape_h.png") no-repeat scroll center center
+}
+#header .devices a.phone_portrait {
+    background: rgba(0, 0, 0, 0) url("https://ghouse.com.vn/wp-content/uploads/2021/01/icon_phone_portrait.png") no-repeat scroll center center;
+    width: 12px
+}
+#header .devices a.phone_portrait:hover,
+#header .devices .active a.phone_portrait {
+    background: rgba(0, 0, 0, 0) url("https://ghouse.com.vn/wp-content/uploads/2021/01/icon_phone_portrait_h.png") no-repeat scroll center center
+}
+
+#header .center-hotline {
+    float: left;
+    /*margin-left: 30px;*/
+    padding: 4px 0px;
+}
+
+#header .center-hotline .button_order {
+    font-size: 20px;
+    border-radius: 5px !important;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    margin-right: 10px;
+    background: #038018;
+    color: #fff;
+}
+
+#header .hotline, #header .center-button {
+    float: left;
+}
+
+#header a.hotline  {
+    /* text-transform: capitalize; */
+    font-size: 20px;
+    color: #000 ;
+    
+}
+
+#header a.hotline:hover, #header a.hotline:focus {
+    text-decoration: none;
+    background-image: none; 
+    outline: 0;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important; 
+    background: none !important;
+}
+
+
+#header .favorite {
+    color: #b2d9e7;
+    display: block;
+    float: left;
+    line-height: 35px;
+    margin: 10px 5px;
+    padding: 0 10px;
+    width: 120px
+}
+#header .favorite i {
+    color: #81c824;
+    margin-left: 5px
+}
+#header .favorite:hover,
+#header .favorite.selected {
+    background: #001a27 none repeat scroll 0 0;
+    border-radius: 3px
+}
+#header .customers {
+    float: left;
+    margin: 10px 5px;
+    padding: 1px 0;
+    position: relative
+}
+#header .customers>a {
+    color: #b2d9e7;
+    display: block;
+    line-height: 33px;
+    padding: 0 10px
+}
+#header .customers i {
+    color: #81c824;
+    margin-left: 5px
+}
+#header .customers:hover>a {
+    background: #001a27 none repeat scroll 0 0;
+    border-radius: 3px
+}
+#header .customers .list {
+    background: rgba(0, 0, 0, 0) url("https://ghouse.com.vn/wp-content/uploads/2021/01/bg_trans.png") repeat scroll 0 0;
+    display: none;
+    list-style: outside none none;
+    margin: 0;
+    min-width: 100%;
+    padding: 10px 0;
+    position: absolute;
+    top: 100%;
+    white-space: nowrap;
+    z-index: 999
+}
+#header .customers:hover .list {
+    display: block
+}
+#header .customers .list li {
+    color: #b2d9e7;
+    font-size: 11px;
+    line-height: 25px;
+    padding: 2px 10px
+}
+#header .customers .list li a {
+    color: #b2d9e7
+}
+#header .customers .list li a:hover {
+    color: #81c824
+}
+#header .fb_btn {
+    float: left;
+    height: 20px;
+    margin: 18px 5px 17px
+}
+#header .btn_order {
+    background: #417993 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    float: left;
+    font-weight: bold;
+    height: 35px;
+    line-height: 35px;
+    margin: 10px;
+    padding: 0 12px;
+    white-space: nowrap;
+    text-transform: capitalize
+}
+#header .btn_order:hover {
+    background: #244253 none repeat scroll 0 0;
+    color: #fff;
+    text-decoration: none
+}
+#header .btn_order .fa {
+    margin-right: 3px
+}
+#header span.trigger {
+    background: rgba(0, 0, 0, 0) url("https://ghouse.com.vn/wp-content/uploads/2021/01/trigger.png") no-repeat scroll center center;
+    border-top: 0 none;
+    bottom: -25px;
+    cursor: pointer;
+    display: block;
+    height: 26px;
+    left: 10px;
+    position: absolute;
+    width: 83px
+}
+#header span.trigger.trigger-up {
+    background: rgba(0, 0, 0, 0) url("https://ghouse.com.vn/wp-content/uploads/2021/01/trigger-2.png") no-repeat scroll center center
+}
+#header {
+    transition: all .5s ease 0s
+}
+.stick_head {
+    margin-top: -55px
+}
+#preview-frame {
+    background: #fff none repeat scroll 0 0;
+    height: 100%;
+    width: 100%
+}
+#frame {
+    height: 100%;
+    position: relative
+}
+iframe,
+#iframelive {
+    width: 100%
+}
+#iframelive {
+    float: left;
+    width: 100%
+}
+#frameWrapper {
+    background: transparent none repeat scroll 0 0;
+    height: 100%;
+    margin: 0
+}
+ul.responsive {
+    display: block;
+    float: left;
+    margin: 0;
+padding-left:0px;
+}
+ul.responsive li {
+    display: block;
+    float: left;
+    opacity: .4
+}
+ul.responsive li.computer {}ul.responsive li.active {
+    opacity: 1
+}
+ul.responsive li a {
+    display: block;
+    float: left
+}
+.ipadh {
+    background-image: url("https://ghouse.com.vn/wp-content/uploads/2021/01/pad-land.png");
+    background-repeat: no-repeat;
+    height: 871px;
+    margin: 30px auto;
+    padding-left: 94px;
+    padding-top: 43px;
+    width: 1240px
+}
+.iphoneh {
+    background-image: url("https://ghouse.com.vn/wp-content/uploads/2021/01/phone-land.png");
+    background-repeat: no-repeat;
+    height: 395px;
+    margin: 100px auto 30px;
+    padding-left: 97px;
+    padding-top: 17px;
+    width: 781px
+}
+/*.iphonev {
+    background-image: url("https://ghouse.com.vn/wp-content/uploads/2021/01/phone-port.png");
+    background-repeat: no-repeat;
+    height: 762px;
+    margin: 30px auto;
+    padding-left: 12px;
+    padding-top: 96px;
+    width: 395px
+}*/
+.iphonev {
+    background-image: url(https://ghouse.com.vn/wp-content/uploads/2021/01/iphone.png);
+    background-repeat: no-repeat;
+    height: 953px;
+    margin: 30px auto;
+    padding-left: 24px;
+    padding-top: 116px;
+    width: 465px;
+    background-size: contain;
+    padding-right: 24px;
+    position: absolute;
+    top: 0;
+    margin: 0;
+    left: 50%;
+    transform: translateX(-50%) scale(0.725);
+}
+
+
+.ipad-v {
+    background-image: url("https://ghouse.com.vn/wp-content/uploads/2021/01/pad-port.png");
+    background-repeat: no-repeat;
+    height: 1241px;
+    margin: 30px auto;
+    padding-left: 37px;
+    padding-top: 104px;
+    width: 900px
+}
+.computer {
+    height: 100%
+}
+.link-demo.selected {
+    border: solid 3px #000
+}
+a {
+    color: #333;
+    text-decoration: none;
+    outline: none
+}
+.floatright {
+    float: right!important
+}
+.srcoll {
+    overflow-x: hidden;
+    overflow-y: scroll
+}
+#goToCart {
+    color: #6ac239
+}
+.display-none {
+    display: none
+}
+div.ex {
+    font-size: 13px;
+    color: #888;
+    padding-left: 5px;
+    padding-top: 5px
+}
+label.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px
+}
+
+.btn_order .fa-shopping-cart {
+    margin-right: 5px
+}
+.bootstrap-dialog .btn-default,
+.bootstrap-dialog .btn-default:hover {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0!important;
+    border: medium none;
+    color: #333;
+    padding: 10px;
+    text-decoration: underline
+}
+@media(max-width:767px) {
+    #header .devices, #header #logo {
+        display: none
+    }
+}
+@media(max-width:768px) {
+    #header .fb_btn, #header .favorite {
+        display: none
+    }
+}
+
+
+/*add by thanhtamit*/
+.form-order .modal-title {
+   margin-bottom: 10px;
+    color: #3F81BB;
+    margin-top: 0px; 
+    font-size: 30px;
+    text-align: center;
+}
+.form-order .check-sent {
+    background-color: #ff5d00;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.form-order .check-off{
+     margin-top:2px;
+margin-right:2px;
+}
+
+.form-order .check-in label.error {
+    color: red;
+    font-weight: 500;
+    padding:10px 0px;
+}
+
+.form-dathang {
+   position: fixed;
+    width: auto;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background: #fff;
+    padding: 15px;
+    border: 5px solid #000;
+    z-index: 9;
+    height: auto;
+    overflow-y: auto;
+}
+.form-dathang h3{
+    font-size: 2em;
+    position: relative;
+    margin: 0 auto;
+    display: table;
+    margin-bottom: 20px;
+    text-transform: none;
+    font-weight: normal;
+    font-family: monospace;
+    width: max-content;
+}
+.form-dathang div{
+        font-size: 14px;
+    font-family: monospace;
+    margin-bottom: 15px;
+}
+.form-dathang a{color: #0199ff;}
+.form-dathang h3:before{
+    position: absolute;
+    content: "";
+    border-bottom: 1px solid #000;
+    height: 0px;
+    width: 50px;
+    top: 15px;
+    left: -60px;
+}
+.form-dathang h3:after{
+    position: absolute;
+    content: "";
+    border-bottom: 1px solid #000;
+    height: 0px;
+    width: 50px;
+    top: 15px;
+    right: -60px;
+}
+.form-dathang button {
+    border-radius: 90%;
+    color: #000;
+    font-weight: bold;
+}
+.form-dathang div input.wpcf7-form-control.wpcf7-text {
+    background: #f5f8fa;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    height: 35px;
+    width: 100%;
+    padding: 0 15px;
+}
+.form-dathang input.wpcf7-form-control.wpcf7-submit {
+    background: #fdcc0f;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    padding: 0 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Google' !important;
+    font-weight: bold;
+}
+@media screen and (max-width: 950px) and (min-width: 768px) {
+    .button_order .hidden-xs, .hotline .hidden-xs{
+        display: none !important;
+    }
+    #header .center-hotline {
+        margin-left: 5px;
+    }
+}
+@media screen and (max-width: 1150px) and (min-width: 951px) {
+    .button_order, .hotline {
+        font-size: 16px !important;
+        margin-top: 3px !important;
+    }
+}
+@media screen and (max-width: 767px) {
+#header .template_id {
+    
+    margin: 15px 30px;
+  
+}
+.form-dathang{width: 90% !important;}
+}
+@media screen and (max-width: 1340px) and (min-width:1024px){
+#header .template_id{
+    margin: 15px 0px;
+}
+}
+@media screen and (max-width: 480px) {
+#header .center-hotline .nav li:nth-child(2),#header .center-hotline .nav li:nth-child(3){
+display:none
+}
+.form-dathang{
+    top: 75px !important;
+    transform: translateX(-50%) translateY(-50px) !important;
+    height: 100% !important;
+}
+.form-dathang h3{font-size: 22px}
+
+.form-dathang h3:before,.form-dathang h3:after{display: none;}
+}
+@media screen and (max-width: 320px) {
+    #header .center-hotline {
+        margin-left: 0px;
+    }
+    #header .center-hotline .button_order, #header a.hotline {
+        font-size: 14px;
+    }
+}

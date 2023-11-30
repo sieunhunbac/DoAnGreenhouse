@@ -1,0 +1,226 @@
+body{
+	background: #fff;
+	color: ;
+
+}
+.container-fluil{
+	width: 100%;
+	color: #5f5f5f;
+	font-family: Arial;
+	font-size: 12px;
+}
+.container{
+	width: 960px;
+	margin:auto;
+}
+.menu1{
+	clear:both ;
+}
+header{
+	background: #fff;
+	border-top: solid 10px #2485ca;
+	height: 120px;
+}
+header .top-header{
+	margin-top: 20px;
+}
+header .top-header .logo{
+	float: left;
+}
+header .top-header .form{
+	float: right;
+	border:solid 1px #e1e1e1 ;
+	padding: 5px;
+	border-radius:5px ;
+}
+header .top-header .form input{
+	border: none;
+	text-indent: -9999px;
+	background: url() no-repeat;
+}
+header .menu{
+	float: right;
+}
+header .menu ul li {
+	float:left;
+	list-style-type: none;
+}
+header .menu ul li a{
+	float: left;
+	text-decoration: none;
+	color: black;
+	padding: 14px;
+	margin-top: -6px;
+	 
+}
+.current{
+	border: solid 1px #efefef;
+	background: #efefef;
+
+}
+/*--------------------------*/
+.services{
+	background: #2485ca;
+	border-top: solid 50px #efefef;
+	border-bottom: solid 40px #efefef;
+}
+.services h1{
+	color: #fff;
+	font-size: 40px;
+	height: 100px;
+	line-height: 100px;
+}
+.main{
+	border-top: solid 1px #efefef;
+	border: solid 1px #efefef;
+	overflow: hidden;
+}
+.main .row{
+	margin-left: -10px;
+	margin-right: -10px;
+	padding-top: 30px;
+}
+.main .content .main .sidebar{
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.main .content{
+	width: 620px;
+}
+.main .content h3{
+	margin-bottom: 30px;
+}
+.main .content .welcome h3{
+	margin-bottom: 30px;
+}
+.main .content .welcome p{
+	margin-bottom: 30px;
+}
+.main .content .welcome p .sapo{
+	color: #a4a4a4;
+}
+.main .content .box-row{
+	margin-left: -10px;
+	margin-right: -10px;
+}
+.box{
+	float: left;
+	width: 280px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.box h3{
+	border-bottom: solid 1px #dfdfdf;
+	padding-bottom: 25px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.box img{
+	float: left;
+
+}
+.box p{
+	margin-left: 75px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+.box .order a{
+	color: #fff;
+	background: #2383cc;
+	padding: 6px;
+	text-decoration: none;
+	border-radius: 4px;
+}
+
+.sidebar{
+	width: 320px;
+}
+.main .sidebar .news{
+	font-size: 14px;
+}
+.news ul{
+	padding: 0px;
+}
+.main .sidebar .news ul li span{
+	background: #dbdbdb;
+	padding: 3px 6px;
+	display: inline-block;
+	text-decoration: none;
+}
+.main .sidebar .news ul li p{
+	border-top: solid 1px #dbdbdb;
+	
+}
+.main .sidebar .news ul li{
+	list-style-type: none;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.main .sidebar .news p .more a{
+	color: #2079c5;
+	font-size: 20px;
+	font-weight:bold ;
+}
+.more{
+	font-size: 15px;
+}
+.touch h3{
+	margin-top:30px ;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: solid 1px #dbdbdb;
+}
+.touch p span{
+	font-weight:bold ;
+	text-decoration: none;
+}
+.touch p a{
+	color: #0092dd;
+	text-decoration: none;
+}
+.follow{
+	margin: right;
+	border-top: solid 1px #dbdbdb;
+	padding-top: 20px;
+	margin-top: 25px;
+
+}
+.follow{
+	margin-top: 20px;
+	padding-top: 15px;
+	border-top: solid 1px #dbdbdb;
+}
+.follow img{
+	float: left;
+}
+.follow p{
+	margin-left: 90px;
+}
+.follow p a{color: #0092dd;
+	text-decoration: none;
+	font-weight:  bold;
+}
+/*----------------------*/
+footer{
+	background: #2485ca;
+	border-top: solid 6px #efefef;
+	height: 90px;
+	color: #fff;
+}
+footer .row{
+	padding-top:20px;
+}
+footer .row .left{
+	float:left;
+}
+footer .row .right{
+	float: right;
+	
+}
+.menu{
+	float: righ;
+}
+header .menu ul li{
+	float: left;
+}
